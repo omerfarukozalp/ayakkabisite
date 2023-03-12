@@ -1,0 +1,708 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+.navbar {
+    width: auto;
+    height: 85px;
+    background-color: white;
+}
+
+.navbariç ul {
+    float: right;
+    margin-right:600px;
+}
+
+.shopping li {
+    list-style: none;
+}
+
+.shopping li i {
+    color: black;
+    float: right;
+    position: relative;
+    top: 35px;
+    right: 250px;
+    font-size: 20px;
+}
+
+.navbariç ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 50px;
+}
+
+.navbariç ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+}
+
+.logo img {
+    margin-top: 27px;
+    margin-left: 65px;
+}
+
+.cerceve {
+    width: 100%;
+    overflow: hidden;
+}
+
+.galeri {
+    position: relative;
+    width: 400%;
+    left: 0;
+    animation: 16s slayt infinite;
+}
+
+.galeri img {
+    width: 25%;
+    float: left;
+}
+
+@keyframes slayt {
+    0% {
+        left: 0%;
+    }
+    20% {
+        left: 0%;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    90% {
+        left: -300%;
+    }
+}
+
+.cizgi {
+    right: 10px;
+    position: relative;
+    margin: 25px;
+    width: auto;
+    height: 3px;
+    background-color: gray;
+}
+
+.alt h2 {
+    font-family: 'Poppins';
+    position: relative;
+    margin-left: 610px;
+    color: rgb(79, 74, 74);
+    user-select: none;
+    top: 45px;
+}
+
+.kutu1 {
+    margin: 70px;
+    width: 320px;
+    height: 500px;
+    border: solid black 2px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.kutu1 img {
+    position: relative;
+    left: 11px;
+    top: 20px;
+}
+
+.kutu1 a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    left: 10px;
+    top: 15px;
+}
+
+.kutu1 a:hover {
+    color: red;
+}
+
+.kutu1 .kargo {
+    font-family: sans-serif;
+    position: relative;
+    top: 25px;
+    left: 10px;
+    user-select: none;
+}
+
+.kutu1 .adidas {
+    width: 75px;
+    position: relative;
+    left: 230px;
+    top: -15px;
+}
+
+.kutu1 .para {
+    color: red;
+    font-family: sans-serif;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    user-select: none;
+}
+
+.kutu2 {
+    margin: 90px;
+    width: 320px;
+    height: 500px;
+    border: solid black 2px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.kutu2 img {
+    position: relative;
+    left: 10px;
+    top: 20px;
+}
+
+.kutu2 a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    left: 10px;
+    top: 15px;
+}
+
+.kutu2 a:hover {
+    color: red;
+}
+
+.kutu2 .kargo {
+    font-family: sans-serif;
+    position: relative;
+    top: 25px;
+    left: 10px;
+    user-select: none;
+}
+
+.kutu2 .adidas {
+    width: 75px;
+    position: relative;
+    left: 230px;
+    top: -15px;
+}
+
+.kutu2 .para {
+    color: red;
+    font-family: sans-serif;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    user-select: none;
+}
+
+.kutu3 {
+    margin: 70px;
+    width: 320px;
+    height: 500px;
+    border: solid black 2px;
+    display: inline-block;
+    border-radius: 10px;
+    left: 150px;
+}
+
+.kutu3 img {
+    position: relative;
+    left: 10px;
+    top: 20px;
+}
+
+.kutu3 a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    left: 10px;
+    top: 15px;
+}
+
+.kutu3 a:hover {
+    color: red;
+}
+
+.kutu3 .kargo {
+    font-family: sans-serif;
+    position: relative;
+    top: 25px;
+    left: 10px;
+    user-select: none;
+}
+
+.kutu3 .adidas {
+    width: 75px;
+    position: relative;
+    left: 230px;
+    top: -15px;
+}
+
+.kutu3 .para {
+    color: red;
+    font-family: sans-serif;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    user-select: none;
+}
+
+.ortabuton {
+    left: 630px;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(21, 21, 24);
+    display: inline-block;
+    width: 170px;
+    height: 20px;
+    bottom: 50px;
+}
+
+.ortabuton li {
+    list-style: none;
+}
+
+.ortabuton li a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+
+.ortabuton:hover {
+    transition: 0.5s;
+    background-color: rgb(117, 80, 80);
+}
+
+.dropdown-content {
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    min-width: 160px;
+    z-index: 1;
+    font-size: 15px;
+}
+
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 12px 36px;
+    font-size: 19px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Poppins';
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-family: 'Poppins';
+    left: 75px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    min-width: 149px;
+    z-index: 1;
+    font-family: 'Poppins';
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Poppins';
+}
+
+.dropdown-content a:hover {
+    background-color: red;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: white;
+}
+
+.alt1 h2 {
+    font-family: 'Poppins';
+    position: relative;
+    margin-left: 600px;
+    color: rgb(79, 74, 74);
+    user-select: none;
+    top: 3px;
+}
+
+.wrapper {
+    width: 100vh;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+
+.slider1 {
+    width: 1200px;
+    height: 100px;
+    position: relative;
+    background: white;
+    box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    overflow: hidden;
+    left: 400px;
+}
+
+.slide {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    animation: slideshow 10s linear infinite;
+}
+
+.slide img {
+    height: 60px;
+    padding: 0 30px 0 30px;
+}
+
+@keyframes slideshow {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.slider1::before,
+.slider1::after {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    content: "";
+    background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+    z-index: 2;
+}
+
+.slider1::before {
+    left: 0;
+    top: 0;
+}
+
+.slider1::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+.alt2 h2{
+    font-family: 'Poppins';
+    position: relative;
+    color: rgb(79, 74, 74);
+    user-select: none;
+    bottom: 30px;
+    left:570px;
+    display: inline-block;
+}
+.ul1{
+    position: relative;
+    display: inline-flex;
+    gap: 25px;
+    left: 200px;
+    top: 70px;
+}
+ul li{
+    position: relative;
+    list-style: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    transition: 0.5s;
+}
+ul li:hover{
+    width: 180px;
+   box-shadow: 0 10px 25px rgba(0,0,0,0);
+}
+ul li::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 50px;
+    background: linear-gradient(45deg,var(---1), var(---1));
+    opacity: 0;
+    transition: 0.5s;
+}
+ul li:hover::before{
+    opacity: 1;
+}
+ul li::after{
+    content: '';
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    height: 100%;
+    border-radius: 60px;
+    background: linear-gradient(45deg, var(---i),var(---j));
+    opacity: 0;
+    transition: 0.5s;
+    z-index: -1;
+    filter: blur(15px);
+}
+ul li:hover::after{
+    opacity: 0.5;
+}
+ul li i{
+    color: #777;
+    font-size: 1.75em !important;
+    transform: 0.5s;
+    transition-delay: 0.25s;
+}
+ul li:hover i{
+    transform: scale(0);
+    font-size: 1.75em;
+    transition-delay: 0.25s;
+}
+ul li span{
+    position: absolute;
+}
+ul li .titulo{
+    color: #fff;
+    font-size: 1.1em !important;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transform: scale(0);
+    transition: 0.5s;
+    transition-delay: 0s;
+}
+ul li:hover .titulo{
+    transform: scale(1);
+    transition-delay: 0.25s;
+}
+.kutualt1{
+    width: auto;
+    height: 120px;
+    border:3px;
+    position: relative;
+    top: 65px;
+    background-color:#f8f8f8;
+}
+.kutualt1 .satır1{
+    position: relative;
+    bottom: 50px;
+    left:150px;
+    display:inline-block;
+    user-select: none;
+}
+.kutualt1 .satır2{
+    display: inline-block;
+    position: relative;
+    right: 50px;
+    bottom: 30px;
+user-select: none;
+}
+.kutualt1 .satır3{
+    display: inline-block;
+    position: relative;
+    bottom: 40px;
+    left: 85px;
+}
+.satır4{
+    display: inline-block;
+    position: relative;
+    left: 200px;
+    bottom: 40px;
+}
+.satır5{
+    display: inline-block;
+    position: relative;
+    left: 200px;
+    bottom: 40px;
+}
+.img1{
+    position: relative;
+    left: 150px;
+}
+.img2{
+    position: relative;
+    left: 80px;
+}
+.img3{
+    position: relative;
+    left: 200px;
+    top: 10px;
+}
+.img4{
+    position: relative;
+    left: 200px;
+}
+.bitispanel{
+    right: 10px;
+    top: 70px;
+    position: relative;
+    width: 1470px;
+    height: 600px;
+    border: solid black 3px;
+    background-color: black;
+}
+.p1{
+    color: white;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    display: inline-block;
+}
+.txt{
+    position: relative;
+    right: 340px;
+    top: 70px;
+    border-radius: 15px;
+    width: 370px;
+    height: 50px;
+    display: inline-block;
+}
+.buttonkayıt{
+    border-radius:5px;
+    width: 150px;
+    height: 30px;
+    position: relative;
+    right: 605px;
+    top: 140px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.buttonkayıt:hover{
+    color: black;
+    background-color: red;
+transition: 1s;
+}
+.ff1{
+    color: white;
+    position: relative;
+display: inline-block;
+right: 350px;
+}
+.ff2{
+    color: white;
+    display: inline-block;
+    position: relative;
+    right: 500px;
+}
+.ff3{
+    color: white;
+    display: inline-block;
+    position: relative;
+    left: 730px;
+    bottom: 75px;
+}
+.bt1{
+    color: white;
+    background-color: black;
+    display: inline-block;
+    position: relative;
+    right:440px;
+    top: 30px;
+}
+
+.bt2{
+    color: white;
+    background-color: black;
+    display: inline-block;
+    position: relative;
+    right:530px;
+    top: 60px;
+}
+.bt3{
+    color: white;
+    background-color: black;
+    display: inline-block;
+    position: relative;
+    right:590px;
+    top: 95px;
+}
+.bt4{
+    color: white;
+    background-color: black;
+    display: inline-block;
+    position: relative;
+    right:570px;
+    top: 30px;
+}
+.bt5{
+    color: white;
+    background-color: black;
+    display: inline-block;
+    position: relative;
+    left:730px;
+    bottom:20px;
+}
+.bt6{
+    color: white;
+    background-color: black;
+    display: inline-block;
+    position: relative;
+    left: 620px;
+    top: 15px;
+}
+.bt7{
+    color: white;
+    background-color: black;
+    display: inline-block;
+    position: relative;
+    left: 660px;
+    bottom:5px;
+    
+}
+.bt8{
+    color: white;
+    background-color: black;
+    display: inline-block;
+    position: relative;
+    left: 600px;
+    bottom: 45px;
+}
+.bt9{
+    color: white;
+    background-color: black;
+    display: inline-block;
+    position: relative;
+    left: 555px;
+    top: 35px;
+}
+.resim{
+display: inline-block;
+position: relative;
+left: 700px;
+}
+.resim2{
+    position: relative;
+    top: 300px;
+    right: 300px;
+}
+.usergiris{
+    position: relative;
+    right: 25px;
+}

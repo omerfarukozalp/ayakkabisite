@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+.navbar {
+    width: auto;
+    height: 85px;
+    background-color: white;
+}
+
+.navbariç ul {
+    float: right;
+    margin-right: 600px;
+}
+.dropdown-content {
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    min-width: 160px;
+    z-index: 1;
+    font-size: 15px;
+}
+
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 12px 36px;
+    font-size: 19px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Poppins';
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-family: 'Poppins';
+    left: 75px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    min-width: 149px;
+    z-index: 1;
+    font-family: 'Poppins';
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Poppins';
+}
+
+.dropdown-content a:hover {
+    background-color: red;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: white;
+}
+.shopping li {
+    list-style: none;
+}
+
+.shopping li i {
+    color: black;
+    float: right;
+    position: relative;
+    top: 35px;
+    right: 300px;
+    font-size: 20px;
+}
+
+.navbariç ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 50px;
+}
+
+.navbariç ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+}
+.logo img {
+    margin-top: 27px;
+    margin-left: 65px;
+}
+.usergiris{
+    position: relative;
+    right: 25px;
+}
+.cizgi {
+    right: 10px;
+    position: relative;
+    margin: 25px;
+    width: auto;
+    height: 3px;
+    background-color: gray;
+}
+.ayakkabı{
+    position: relative;
+    left:50px ;
+    top: 30px;
+    display: inline-block;
+}
+.ayakkabıisim{
+    display: inline-block;
+    position: relative;
+    left: 200px;
+    bottom: 450px;
+    font-size: 20px;
+}
+.fiyat{
+    display: inline-block;
+    position: relative;
+    right: 330px;
+    bottom: 420px;
+    font-size: 15px;
+    color: green;
+    font-size: 20px;
+}
+.fiyat2{
+    display: inline-block;
+    position: relative;
+    right: 447px;
+    bottom: 390px;
+    font-size: 15px;
+    color: red;
+    font-size: 20px;
+}
